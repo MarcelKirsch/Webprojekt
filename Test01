@@ -6,3 +6,4 @@ Test 05 ProjektExplorer Webprojekt "push to upstream", macht er nicht
 Test 06 ProjektExplorer Webprojekt "push branch master", macht er nicht
 Test 07 Test01 mit Commit, funktioniert
 Test 08 Local Master mit Push in die Cloud
+Test 09 Webprojekt Commit

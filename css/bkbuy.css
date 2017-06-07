@@ -5,7 +5,41 @@
  */
 
 body {
-    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#navbar-logo {
+	height: 75px;
+}
+
+.profilbutton {
+	right: 5rem;
+	top: 1.3rem;
+	position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border: solid 0.5px grey;
+    /* Background image muss noch angezeigt werden */
+    background: url("/img/Profilbild.jpg") no-repeat scroll 0 0 transparent;
+    background-color: orange;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -webkit-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+}
+
+.profilbutton:hover {
+    -moz-transform: translate(0, -1.5px);
+    -webkit-transform: translate(0, -1.5px);
+    -o-transform: translate(0, -1.5px);
+    transform: translate(0px, -1.5px);
+}
+
+.button:active {
+	width: 50%;
 }
 
 .slide-image {

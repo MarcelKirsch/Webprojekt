@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="5" /> -->
     <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen-->
     <title>BKBuy - Startseite</title>
 
@@ -11,9 +12,12 @@
 	<link href="../css/bootstrap.css" rel="stylesheet">
 	<link href="../css/bkbuy.css" rel="stylesheet">
 	
-	<!-- Script Daten -->
+	<!-- Script Dateien -->
 	<script src="../javascript/jquery.js"></script>
     <script src="../javascript/bootstrap.js"></script>
+    
+    <!-- PHP Dateien -->
+	<?php include("../php/connectdb.php"); ?>    
     
     <style>
     	body {
@@ -43,14 +47,12 @@
 			       </div>
 			       <button type="submit" class="btn btn-default btn-lg">Los</button>
 			     </form>
+			     
+				
+				<!-- Profilobjekt rechts -->
+				<div class="profilbutton"></div>
 			</div><!-- /.row -->
 			
-			<!-- Profilobjekt rechts -->
-			<button type="button" class="btn btn-default navbar-right btn-lg" style="margin: 1.4rem 0 0 0;">
-			  <span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span>
-			</button>
-			
-
 				
         </div>
 	</nav>

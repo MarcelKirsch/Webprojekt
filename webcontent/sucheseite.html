@@ -16,12 +16,6 @@
 	<script src="../javascript/jquery.js"></script>
     <script src="../javascript/bootstrap.js"></script>
     
-    <style>
-	    #table-description {
-	    	font-size: medium;
-	    }
-    </style>
-    
   </head>
   
 <body>
@@ -58,45 +52,42 @@
 	
 	<!-- Seiteninhalt -->
 	<div class="container">
-		<h1>Artikel verkaufen</h1>
+			
+			
+			<div class="col-md-3">
+				<p class="lead">Kategorien</p>
+				<div class="list-group">
+					<a href="#" class="list-group-item">Category 1</a> 
+					<a href="#" class="list-group-item">Category 2</a> 
+					<a href="#"	class="list-group-item">Category 3</a>
+				</div>
+			</div>
 
-		<table class="table">
-			<thead>
-				<tr>
+
+			<!-- Suchinhalte -->
+			<div class="col-md-9">
+				<button type="button" class="btn btn-default pull-right" style="margin-top: 15px">Sortieren</button>
+				
+				
+				<!-- Artikelansichten -->
+				<div class="row" style="padding-top: 60px">
+					<div class="col-md-2">
+						<img src="/img/artikelbild.jpg" alt="Artikelbild" style="width: 80%; text-align: center; border-radius: 5px">
+					</div>
 					
-				</tr>
-			</thead>
-		    <tbody>
-		      <tr>
-		        <td id="table-description">Produktname</td>
-		        <td> <input type="text" class="form-control" id="product-name"> </td>
-		      </tr>
-		      <tr>
-		      	<td id="table-description">Produktbeschreibung</td>
-		      	<td> <textarea class="form-control" rows="3" id="product-description"></textarea> </td>
-		      </tr>
-		      <tr>
-		      	<td id="table-description">Preis</td>
-		      	<td> <input type="text" class="form-control" id="product-price"> </td>
-		      </tr>
-		      <tr>
-		      	<td id="table-images">Produktbilder</td>
-		      	<td> Krajee Explorer Theme Demo </td>
-		      </tr>
-		      <tr>
-		      	<td id="table-description">Kategorie</td>
-				<td>
-					<select class="form-control" id="sel1">
-						<option>Elektronik</option>
-						<option>Computer</option>
-						<option>Kleidung</option>
-						<option>Haushalt</option>
-					</select>
-				</td>
-				</tr>
-		
-		   </tbody>
-		</table>
+					
+					<div class="col-md-7" style="text-align: center;">
+						<div>Produktüberschrift</div>
+						<div>Kurzbeschreibung</div>
+					</div>
+					
+					
+					<div class="col-md-3" style="text-align: center;">
+						<h4>Schulklasse</h4>
+						<h4>Preis</h4>
+					</div>
+				</div>				
+			</div>
 	</div>
 	
 </body>

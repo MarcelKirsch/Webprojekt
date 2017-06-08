@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <meta http-equiv="refresh" content="5" /> -->
-    <!-- Die 3 Meta-Tags oben *mÃ¼ssen* zuerst im head stehen-->
+    <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen-->
     <title>BKBuy - Startseite</title>
 
     <!-- CSS Daten -->

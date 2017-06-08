@@ -1,11 +1,11 @@
-/*!
- * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
-    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 80px;
+}
+
+.navbar-brand {
+	padding: 0 0 0 15px;
+	height: 100%;
 }
 
 #navbar-logo {
@@ -85,4 +85,8 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+#border {
+	border: 1px solid black;
 }

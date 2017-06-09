@@ -1,34 +1,80 @@
 
 body {
-    padding-top: 80px;
+    padding-top: 75px;
+    margin-top: 5px;
 }
 
-.navbar-brand {
-	padding: 0 0 0 15px;
-	height: 100%;
-}
+/* HEADER */
 
-#navbar-logo {
+.navbar-header {
 	height: 75px;
 }
 
+.container-header {
+	padding: 0 25px;
+	margin-right: 0px; 
+	height: 100%;
+}
+
+.navbar-brand {
+	height: 100%; 
+	padding: 0; 
+	display: block; 
+	float: left;
+}
+
+.logo {
+	max-height: 100%; 
+	max-width: 100%;
+}
+
+/* Suchleiste */
+
+.navbar-form {
+	width: 720px;
+	height: 100%;  
+	padding: auto 20px; 
+	margin: 0px; 
+	position: relativ;
+}
+
+.searchbar {
+	width: 50%;
+	padding: 0; 
+	margin: 0; 
+	position: absolute; 
+	top: 20%; 
+}
+
 .profilbutton {
-	right: 5rem;
-	top: 1.3rem;
 	position: absolute;
+	margin:0; padding:0;
+	float: right;
+	top: 12px;
+	right: 120px;
+	
     width: 5rem;
-    height: 5rem;
+    height: 5rem; 
+    border-radius: 50%;
     border: solid 0.5px grey;
     /* Background image muss noch angezeigt werden */
-    background: url("/img/Profilbild.jpg") no-repeat scroll 0 0 transparent;
-    background-color: orange;
-    border-radius: 50%;
+    background-image: url("../img/Profilbild.jpg");
+    background-position: center;
+    background-size: contain;
     cursor: pointer;
     
     transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -webkit-transition: all 100ms ease;
     -o-transition: all 100ms ease;
+}
+
+.button-anzeige {
+	position: absolute;
+	padding: -6px;
+	float: right;
+	top: 25%;
+	right: 260px;
 }
 
 .profilbutton:hover {
@@ -87,6 +133,6 @@ footer {
     margin: 50px 0;
 }
 
-#border {
+.border {
 	border: 1px solid black;
 }

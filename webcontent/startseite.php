@@ -17,7 +17,16 @@
     <script src="../js/bootstrap.js"></script>
     
     <!-- PHP Dateien -->
-	<?php include("../php/connectdb.php"); ?>    
+	<?php
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	
+	// Create connection
+	$conn = new mysqli($servername, $username, $password);
+	mysqli_select_db("bkbuy");
+
+	?>
 
     
   </head>
@@ -26,29 +35,37 @@
 
     <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
         <div class="container-fluid">
-            
-			<!-- Brand and toggle get grouped for better mobile display -->
+                        
+ 			
 			<div class="navbar-header">
-			    
-				<!-- Logo -->
-				<a class="pull-left" href="#" id="navbar-logo">	
-					<img src="../img/Logo_BKBuy_trans.png" width="35%" style="padding-top: 0.5rem;">
-				</a>
-				
-				<!-- Suchleiste -->
-			     <form class="navbar-form navbar-left" style="margin: 1.4rem 0 0 0;" role="search">
-			       <div class="form-group input-group-lg">
-			         <input type="text" class="form-control" placeholder="Suchen">
-			       </div>
-			       <button type="submit" class="btn btn-default btn-lg">Los</button>
-			     </form>
-			     
-				
-				<!-- Profilobjekt rechts -->
-				<div class="profilbutton"></div>
-			</div><!-- /.row -->
-			
-				
+				<div class="container container-header">
+				    <!-- suchleiste mittig einfügen -->
+				    <!-- buttons zu den anderen seiten einfügen -->
+				    <!-- button profil fertigstellen -->
+				    <!-- button profil mit diesem dropdown fertig stellen -->
+				    
+					<!-- Logo -->
+					<a class="navbar-brand" href="../webcontent/startseite.php">
+						<img src="../img/logo_trans.png" class="logo">
+					</a>
+					
+					
+					<!-- Suchleiste -->
+				     <form class="navbar-form navbar-left" role="search">
+					       <div class="form-group input-group-lg searchbar">
+							<input type="text" style="width: 90%" class="form-control" placeholder="Suchen">
+							<button type="submit" class="btn btn-default btn-lg">Los</button>	
+					       </div>
+				     </form>
+				     
+				     
+				     <button type="button" class="btn btn-default button-anzeige">Artikel einstellen</button>
+				     
+					
+					<!-- Profilobjekt rechts -->
+					<div class="profilbutton border"></div>
+				</div>
+			</div>
         </div>
 	</nav>
 

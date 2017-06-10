@@ -1,7 +1,15 @@
 
 body {
-    padding-top: 75px;
-    margin-top: 5px;
+    margin-top: 75px;
+}
+
+.container-body {
+		padding: 0 7px 9px 7px;
+		margin: 7px 0 7px 0;
+		background-color: #f3f3f3;
+		border-radius: 5px;
+		border: 1px solid #e3e3e3;
+    	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);		
 }
 
 /* HEADER */
@@ -40,7 +48,7 @@ body {
     transform: translate(0px, -1.5px);
 }
 
-/* Suchleiste */
+/* SEARCHBAR */
 
 .navbar-form {
 	max-width: 720px;
@@ -95,6 +103,14 @@ body {
     transform: translate(0px, -1.5px);
 }
 
+.profilbutton {
+	opacity: 0.7;
+}
+
+.profilbutton:hover, .profilbutton:active {
+	opacity: 1;
+}
+
 .button-anzeige {
 	position: relative;
 	padding: -6px;
@@ -104,9 +120,13 @@ body {
 	margin-right: 15px;
 }
 
-.button:active {
-	width: 50%;
+/* ARTIKELSEITE */
+
+.carousel-artikel {
+	width: 600px;
 }
+
+/*  */
 
 .slide-image {
     width: 100%;

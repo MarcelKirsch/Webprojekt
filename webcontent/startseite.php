@@ -41,7 +41,6 @@
 				<div class="container container-header">
 				    <!-- suchleiste mittig einfügen -->
 				    <!-- buttons zu den anderen seiten einfügen -->
-				    <!-- button profil fertigstellen -->
 				    <!-- button profil mit diesem dropdown fertig stellen -->
 				    
 					<!-- Logo -->
@@ -63,7 +62,7 @@
 				     
 					
 					<!-- Profilobjekt rechts -->
-					<div class="profilbutton border"></div>
+					<div class="profilbutton"></div>
 				</div>
 			</div>
         </div>

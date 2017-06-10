@@ -6,13 +6,18 @@ body {
 
 /* HEADER */
 
+.navbar {
+	position: absolute;
+}
+
 .navbar-header {
 	height: 75px;
 }
 
 .container-header {
-	padding: 0 25px;
+	padding: 0px 25px;
 	margin-right: 0px; 
+	margin-top: 2px;
 	height: 100%;
 }
 
@@ -28,19 +33,25 @@ body {
 	max-width: 100%;
 }
 
+.logo:hover {
+    -moz-transform: translate(0, -1.5px);
+    -webkit-transform: translate(0, -1.5px);
+    -o-transform: translate(0, -1.5px);
+    transform: translate(0px, -1.5px);
+}
+
 /* Suchleiste */
 
 .navbar-form {
-	width: 720px;
+	max-width: 720px;
 	height: 100%;  
 	padding: auto 20px; 
 	margin: 0px; 
-	position: relativ;
 }
 
 .searchbar {
 	width: 50%;
-	padding: 0; 
+	padding: 5px 0 5px 0; 
 	margin: 0; 
 	position: absolute; 
 	top: 20%; 
@@ -57,31 +68,40 @@ body {
     height: 5rem; 
     border-radius: 50%;
     border: solid 0.5px grey;
-    /* Background image muss noch angezeigt werden */
-    background-image: url("../img/Profilbild.jpg");
-    background-position: center;
-    background-size: contain;
-    cursor: pointer;
     
+    background-image: url("../img/Profilbild2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    /* background-image: url("../img/Profilbild1.jpg");
+    background-position: center;
+    background-size: contain; */
+    
+    cursor: pointer;
     transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -webkit-transition: all 100ms ease;
     -o-transition: all 100ms ease;
 }
 
-.button-anzeige {
-	position: absolute;
-	padding: -6px;
-	float: right;
-	top: 25%;
-	right: 260px;
+.profilbutton:active, .button-anzeige:active, .logo:active {
+	border: solid 0.5px darkgrey;
 }
 
-.profilbutton:hover {
+.profilbutton:hover, .button-anzeige:hover {
     -moz-transform: translate(0, -1.5px);
     -webkit-transform: translate(0, -1.5px);
     -o-transform: translate(0, -1.5px);
     transform: translate(0px, -1.5px);
+}
+
+.button-anzeige {
+	position: relative;
+	padding: -6px;
+	float: right;
+	padding: auto;
+	margin-top: 20px;
+	margin-right: 15px;
 }
 
 .button:active {

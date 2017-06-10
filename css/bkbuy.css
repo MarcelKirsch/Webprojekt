@@ -48,6 +48,12 @@ body {
     transform: translate(0px, -1.5px);
 }
 
+.logo:active {
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+	border: solid 0.5px darkgrey;
+}
+
 /* SEARCHBAR */
 
 .navbar-form {
@@ -127,6 +133,10 @@ body {
 }
 
 /*  */
+
+.artikel-beschreibung {
+	text-align: justify;
+}
 
 .slide-image {
     width: 100%;

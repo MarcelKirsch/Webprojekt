@@ -12,9 +12,11 @@ if ( ! $db_erg )
 }
 
 
+//$zeile['Katname']
+
 while ($zeile = mysqli_fetch_array( $db_erg))
 {
-	print($zeile['Katname']);
+	print(" <a href=\"#\" class=\"list-group-item\"> $zeile[Katname] </a> ");
 }
 
 

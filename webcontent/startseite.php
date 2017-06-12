@@ -17,11 +17,7 @@
     <script src="../js/bootstrap.js"></script>
     
     <!-- PHP Dateien -->
-	<?php
-	include("../php/connectdb.php");
 	
-	?>
-
     
   </head>
   
@@ -70,9 +66,8 @@
             <div class="col-md-3">
                 <p class="lead">Kategorien</p>
                 <div class="list-group">
-                    <a href="#" class="list-group-item"><?php include("../php/getcategories.php");?></a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
+                   <?php include("../php/getcategories.php");?>
+                    <!--    <a href="#" class="list-group-item">Category 3</a> -->
                 </div>
             </div>
 

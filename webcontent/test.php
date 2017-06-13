@@ -171,7 +171,7 @@
 						<p>One fine body&hellip;</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+						<button type="button" name = "ok" class="btn btn-default" data-dismiss="modal">OK</button>
 					</div>
 				</div>
 				<!-- /.modal-content -->
@@ -182,22 +182,22 @@
 
 
 
-<!-- 		<script> -->
-// 		$(document).ready(function(){
+		<script> 
+ 		$(document).ready(function(){
 
 
-// 			$('#modaldialog').dialog({
-// 		        modal: true,
-// 		        autoOpen: false,
-// 			});
+			$('#modaldialog').dialog({
+		        modal: true,
+ 		        autoOpen: false,
+ 			});
 		            	
-// 		 $('#ok').on('click', function() {
-// 		        var name = $('#productname').val();
-// 		        var email = $('#productdescription').val();
-// 		        var subject = $('#productprice').val();
-// 		        $.ajax({
-// 		            success: function() {
-// 		                $('#dmodaldialog').dialog('open');
+		 $('#ok').on('click', function() {
+ 		        var name = $('#productname').val();
+		        var email = $('#productdescription').val();
+		        var subject = $('#productprice').val();
+		        $.ajax({
+ 		            success: function() {
+		                $('#dmodaldialog').dialog('open');
 // 		            }
 // 		        });
 // 		    });

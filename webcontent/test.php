@@ -126,10 +126,7 @@
 		      	<td id="table-description">Kategorie</td>
 				<td>
 					<select class="form-control" id="sel1">
-						<option>Elektronik</option>
-						<option>Computer</option>
-						<option>Kleidung</option>
-						<option>Haushalt</option>
+						<?php include ("../php/getcategoriesart.php");?>
 					</select>
 				</td>
 				</tr>

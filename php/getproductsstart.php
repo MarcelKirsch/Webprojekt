@@ -14,9 +14,10 @@ $i = 0;
 while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	$i ++;
 	if ($i <= 6) {
+		
 		print (" <div class=\"col-sm-4 col-lg-4 col-md-4\"> ") ;
 		print (" <div class=\"thumbnail\"> ") ;
-		// print(" <img src=\"data:image/jpeg;base64\".base64_encode( $zeile[Thumbnail] ) alt=\"\"> ");
+		//print(" <img src=data:image/jpeg;base64,base64_encode( $zeile[Thumbnail] )  />  ");
 		print (" <div class=\"caption\"> ") ;
 		print (" <h4 class=\"pull-right\"> $zeile[Preis] </h4> ") ;
 		print (" <h4><a href=\"#\"> $zeile[Produktname] </a> ") ;

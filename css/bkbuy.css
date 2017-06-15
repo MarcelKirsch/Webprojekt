@@ -12,6 +12,10 @@ body {
     	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);		
 }
 
+#container-body-startseite {
+	padding: 10px 8px 4px 8px;
+}
+
 /* HEADER */
 
 .navbar {
@@ -71,13 +75,15 @@ body {
 	top: 20%; 
 }
 
-.profilbutton {
+#profilbutton-class {
 	position: absolute;
 	margin:0; padding:0;
 	float: right;
 	top: 12px;
 	right: 120px;
-	
+} 
+
+.profilbutton {
     width: 5rem;
     height: 5rem; 
     border-radius: 50%;
@@ -130,6 +136,29 @@ body {
 
 .carousel-artikel {
 	width: 600px;
+}
+
+/* Benutzerseite */
+
+#artikelbild-benutzer {
+	 width: 85%; 
+	 border-radius: 12px; 
+	 border: 1px solid grey"
+}
+
+#profilbild-benutzer {
+	 width: 65%; 
+	 border-radius: 50%; 
+	 border: 1px solid grey;"
+}
+
+#benutzerseite {
+	 padding: 15px 0 20px 0;
+}
+
+#verkauferartikel-benutzer {
+	padding: 0 7px 9px 7px;
+	margin: 7px 0 7px 0;
 }
 
 /*  */

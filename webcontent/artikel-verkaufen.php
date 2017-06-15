@@ -1,53 +1,16 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <meta http-equiv="refresh" content="5" /> -->
-<!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen-->
-<title>BKBuy - Artikel verkaufen</title>
-
-<!-- CSS Daten -->
-<link href="../css/bootstrap.css" rel="stylesheet">
-<link href="../css/bkbuy.css" rel="stylesheet">
-<link href="../css/fileinput.css" media="all" rel="stylesheet"
-	type="text/css" />
-
-<!-- Script Daten -->
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/fileinput.js"></script>
-<script src="../js/locales/de.js"></script>
-
-
-<style>
-#table-description {
-	font-size: medium;
-}
-</style>
-
-
-<!-- Bilder hochladen, daten auslagern(!) -->
-<script>
- 	$(document).on('ready', function() {
-	    $("#upload-pictures").fileinput({
-	    	initialPreviewAsData: true,
-	        deleteUrl: "/site/file-delete",
-	        overwriteInitial: false,
-	        autoReplace: true,
-	        maxFileCount: 10,
-	        allowedFileExtensions: ["jpg", "png", "jpeg"],
-	        maxFileSize: 5120,
-
-	    });
-	});
-</script>
-
-
+  <head>
+	<?php include '..\php\meta-attributes.php';?>
+	<!-- <meta http-equiv="refresh" content="5" /> -->
+	<title>BKBuy - Verkaufen</title>
+	<?php include '..\php\CSS_Skripte.php';?>
+	<?php include '..\php\upload-pictures.php';?>
 </head>
 
+<script src="..\js\upload-pictures.js"></script>
 <body>
+
 	<?php include '..\php\header.php';?>
 	
 	<!-- Seiteninhalt -->

@@ -12,11 +12,16 @@ body {
     	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);		
 }
 
+.container-body:hover {
+	border: 1px solid #d1d1d1;
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+}
+
 #container-body-startseite {
 	padding: 10px 8px 4px 8px;
 }
 
-/* HEADER */
+/* KOPFZEILE */
 
 .navbar {
 	position: absolute;
@@ -58,7 +63,7 @@ body {
 	border: solid 0.5px darkgrey;
 }
 
-/* SEARCHBAR */
+/* SUCHLEISTE */
 
 .navbar-form {
 	max-width: 720px;
@@ -92,10 +97,6 @@ body {
     background-image: url("../img/Profilbild2.jpg");
     background-position: center;
     background-size: cover;
-    
-    /* background-image: url("../img/Profilbild1.jpg");
-    background-position: center;
-    background-size: contain; */
     
     cursor: pointer;
     transition: all 100ms ease;
@@ -138,7 +139,7 @@ body {
 	width: 600px;
 }
 
-/* Benutzerseite */
+/* BENUTZERSEITE */
 
 #artikelbild-benutzer {
 	 width: 85%; 
@@ -159,6 +160,23 @@ body {
 #verkauferartikel-benutzer {
 	padding: 0 7px 9px 7px;
 	margin: 7px 0 7px 0;
+}
+
+/* ARTIKEL VERKAUFEN */
+
+#table-description {
+	font-size: medium;
+}
+
+/* SUCHE-SEITE */
+
+#sucheseite-sortieren {
+	margin-top: 15px;
+}
+
+#artikel-suche-suchleiste {
+	 padding-top: 15px; 
+	 padding-right: 150px;	
 }
 
 /*  */

@@ -9,7 +9,6 @@
 </head>
 <script src="..\js\upload-pictures.js"></script>
 
-<script src="..\js\upload-pictures.js"></script>
 <body>
 
 	<?php include '..\php\header.php';?>

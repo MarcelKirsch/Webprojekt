@@ -5,7 +5,9 @@
 	<!-- <meta http-equiv="refresh" content="5" /> -->
 	<title>BKBuy - Produktseite</title>
 	<?php include '..\php\CSS_Skripte.php';?>
+	<?php include '..\php\upload-pictures.php';?>
 </head>
+<script src="..\js\upload-pictures.js"></script>
   
 <body>
 

@@ -7,6 +7,7 @@
 	<?php include '..\php\CSS_Skripte.php';?>
 	<?php include '..\php\upload-pictures.php';?>
 </head>
+<script src="..\js\upload-pictures.js"></script>
 
 <script src="..\js\upload-pictures.js"></script>
 <body>
@@ -16,7 +17,6 @@
 	<!-- Seiteninhalt -->
 	<div class="container">
 	<div class="container-body">
-
 
 
 		<form action="../php/createarticle.php" method="post">

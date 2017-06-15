@@ -1,3 +1,6 @@
+<?php include '..\php\modal_registrierung.php';?>
+<?php include '..\php\modal_password_reset.php';?>
+
 <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 	<div class="container-fluid">
                         
@@ -19,7 +22,6 @@
 					 </div>
 				</form>
 		     
-		     
 				<button type="button" class="btn btn-default button-anzeige">Artikel einstellen</button>
 		     
 			
@@ -40,7 +42,9 @@
 			                                <div class="form-group">
 			                                    <label for="password">Password</label>
 			                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
-			                                	<a href="#" class="pull-right">Passwort vergessen?</a>
+			                                	
+			                                	<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal">Passwort vergessen?</a>
+			                                	
 			                                </div>
 											
 				                                <div class="form-group" style="margin: 30px 0">
@@ -51,11 +55,12 @@
 			                                <!-- Anmeldung speichern -->
 			                                <!-- <input type="hidden" class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6"> -->
 				                            </form>
-			                    			<div style="text-align: center; margin-top: 70px">Neu hier? <a href="#">Tritt uns bei!</a></div>
+			                    			<div style="text-align: center; margin-top: 70px" data-toggle="modal" data-target="#modal-registrieren">
+			                    			Neu hier? <a href="#">Tritt uns bei!</a></div>
 				                        </div>
 				                    </ul>
 						</li>
-					</ul>					
+					</ul>
 			</div>
 		</div>
 	</div>

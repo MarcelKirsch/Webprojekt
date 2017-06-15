@@ -5,7 +5,9 @@
 	<!-- <meta http-equiv="refresh" content="5" /> -->
 	<title>BKBuy - Benutzerseite</title>
 	<?php include '..\php\CSS_Skripte.php';?>
+	<?php include '..\php\upload-pictures.php';?>
 </head>
+<script src="..\js\upload-pictures.js"></script>
   
 <body>
 	
@@ -33,7 +35,7 @@
 			<hr>
 
 			<div class="row" id="verkauferartikel-benutzer">
-			<h2>Artikel des VerkÃ¤ufers</h2>
+			<h2>Artikel des Verkäufers</h2>
 				
 				
 				<!-- Bilder Carousel -->

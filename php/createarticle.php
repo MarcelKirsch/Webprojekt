@@ -6,7 +6,7 @@
 include ("connectdb.php");
 $conn->set_charset ( 'utf8' );
 
-
+if(isset($_POST["ok"])){
 $productname = $_POST ["productname"];
 $productdescription = $_POST ["productdescription"];
 $productprice = $_POST ["productprice"];
@@ -25,4 +25,5 @@ $stmt->execute();
 
 
 $stmt->close();
+}
 ?>

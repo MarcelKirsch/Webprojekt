@@ -13,17 +13,26 @@ $productprice = $_POST ["productprice"];
 $kategorie = $_POST ["kategorie"];
 
 
-$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung) VALUES (?,?,?)");
-$stmt->bind_param('sss', $productname, $productprice, $productdescription);
+if(empty($productname) OR empty($productdescription) OR empty($productprice))
+{
+	print("Bitte Pflichtfelder (*) ausfüllen!");
+}
+else{
 
+	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung) VALUES (?,?,?)");
+	$stmt->bind_param('sss', $productname, $productprice, $productdescription);
+	
+	
+	
+	$stmt->execute();
+	
+	
+	
+	
+	
+	$stmt->close();
+	
+}
 
-
-$stmt->execute();
-
-
-
-
-
-$stmt->close();
 }
 ?>

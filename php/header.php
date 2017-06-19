@@ -32,7 +32,7 @@
 			                    <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu" style="width: 250px">
 			                            <div class="text-center border" style="border: 1px solid #e3e3e3; margin: -7px 0 12px 0; background-color: #e3e3e3"><h4><b>Anmelden</b></h4></div>
 			                        <div class="col-md-12">
-			                            
+			                           <?php include '..\php\login.php';?> 
 			                            <form id="ajax-login-form" action="#" method="post" role="form" autocomplete="off">
 			                                <div class="form-group">
 			                                    <label for="username">Benutzername</label>

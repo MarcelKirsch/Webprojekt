@@ -3,11 +3,9 @@
 <head>
 	<?php include '..\php\meta-attributes.php';?>
 	<!-- <meta http-equiv="refresh" content="5" /> -->
-<title>BKBuy - Verkaufen</title>
+	<title>BKBuy - Verkaufen</title>
 	<?php include '..\php\CSS_Skripte.php';?>
-	<?php include '..\php\upload-pictures.php';?>
 </head>
-<script src="..\js\upload-pictures.js"></script>
 
 <body>
 
@@ -51,14 +49,14 @@
 						</tr>
 						<tr>
 							<td id="table-description">Produktbilder</td>
-							<td><input id="upload-pictures" name="upload-pictures[]"
+							<td><input id="upload-pictures02" name="upload-pictures1[]"
 								type="file" class="file-loading" accept="image/*" multiple></td>
 						</tr>
 						<tr>
 							<td id="table-description">Kategorie</td>
 							<td><select class="form-control" name="kategorie" id="sel1">
-						<?php include ("../php/getcategoriesart.php");?>
-					</select></td>
+								<?php include ("../php/getcategoriesart.php");?>
+							</select></td>
 						</tr>
 
 

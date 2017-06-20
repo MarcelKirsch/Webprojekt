@@ -39,7 +39,7 @@
 					</div>
 					<h4>Avatar</h4>
 					<input id="upload-pictures" name="upload-pictures[]" type="file"
-					class="file-loading" accept="image/*">
+						class="file-loading" accept="image/*">
 					
 		</div>
       </div>

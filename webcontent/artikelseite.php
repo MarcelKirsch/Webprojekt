@@ -17,7 +17,7 @@
 		
 		<div class="row container-body">
 			
-			<h1>Überschrift, Preis</h1>
+			<h1>Ãœberschrift, Preis</h1>
 			<div class="col-md-12">
 				<div class="row">
 				

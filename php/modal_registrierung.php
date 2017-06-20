@@ -6,7 +6,7 @@
   <form method ="POST">
     <div class="modal-content" style="width: 100%;">
       <div class="modal-header" style="width: 100%;">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="SchlieÃŸen"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">Registrieren</h4>
       </div>
       <div class="modal-body" style="width: 100%;">
@@ -44,7 +44,7 @@
 		</div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">SchlieÃŸen</button>
         <input type="submit" name="ok" class="btn btn-success" value="Registrieren">
       
       </div>

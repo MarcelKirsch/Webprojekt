@@ -35,7 +35,7 @@
 			<hr>
 
 			<div class="row" id="verkauferartikel-benutzer">
-			<h2>Artikel des Verkäufers</h2>
+			<h2>Artikel des VerkÃ¤ufers</h2>
 				
 				
 				<!-- Bilder Carousel -->

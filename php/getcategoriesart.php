@@ -12,7 +12,7 @@ if (! $db_erg) {
 	die ( 'Ungültige Abfrage...' );
 }
 
-// $zeile['Katname']
+
 
 while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	print (" <option> $zeile[Katname] </option>  ") ;

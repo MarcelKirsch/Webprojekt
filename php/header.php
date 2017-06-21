@@ -43,7 +43,8 @@
 			                                    <label for="password">Password</label>
 			                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
 			                                	
-			                                	<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal">Passwort vergessen?</a>
+			                                	<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal">Passwort vergessen?</a><br>
+                                                <input type="checkbox" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6"> Angemeldet bleiben
 			                                	
 			                                </div>
 											
@@ -52,8 +53,7 @@
 			                                            <input type="submit" name="login-submit" tabindex="3" class="form-control btn btn-success" value="Einloggen">
 			                                        </div>
 			                                	</div>    
-			                                <!-- Anmeldung speichern -->
-			                                <!-- <input type="hidden" class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6"> -->
+			                                 
 				                            </form>
 			                    			<div style="text-align: center; margin-top: 70px" data-toggle="modal" data-target="#modal-registrieren">
 			                    			Neu hier? <a href="#">Tritt uns bei!</a></div>

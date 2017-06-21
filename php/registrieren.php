@@ -15,7 +15,7 @@ if(isset($_POST["ok"])){
 
  	if(empty($username) OR empty($password) OR empty($email) OR empty($prename) OR empty($afternamelol) OR empty($schoolclass))
  	{
- 	print("Bitte Pflichtfelder (*) ausfüllen!");
+ 	print("Bitte alles ausfüllen!");
 	}
 	
 	elseif ($query->num_rows != 0){

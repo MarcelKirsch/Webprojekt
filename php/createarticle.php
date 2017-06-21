@@ -15,7 +15,7 @@ $kategorie = $_POST ["kategorie"];
 
 if(empty($productname) OR empty($productdescription) OR empty($productprice))
 {
-	print("Bitte Pflichtfelder (*) ausfüllen!");
+	print("Bitte alle Felder ausfüllen!");
 }
 else{
 

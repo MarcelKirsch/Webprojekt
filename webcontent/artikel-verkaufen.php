@@ -10,6 +10,7 @@
 <body>
 
 	<?php include '..\php\header.php';?>
+	<?php include '..\php\modals_meldungen.php';?>
 	<?php include '..\php\createarticle.php';?>
 	<!-- Seiteninhalt -->
 	<div class="container">

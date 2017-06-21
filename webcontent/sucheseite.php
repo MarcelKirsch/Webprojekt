@@ -63,42 +63,6 @@
 					</div>		
 				</div>
 				
-				<div class="row suchergebnis">
-					<div class="col-md-2 col-center">
-						<img src="../img/artikelbild.jpg" alt="Artikelbild" id="suche-artikelbild">
-					</div>
-					
-					
-					<div class="col-md-7" style="text-align: center;">
-						<div>Produktüberschrift</div>
-						<div>Kurzbeschreibung</div>
-					</div>
-					
-					
-					<div class="col-md-3" style="text-align: center;">
-						<h4>Schulklasse</h4>
-						<h4>Preis</h4>
-					</div>		
-				</div>
-				
-				<div class="row suchergebnis">
-					<div class="col-md-2 col-center">
-						<img src="../img/artikelbild.jpg" alt="Artikelbild" id="suche-artikelbild">
-					</div>
-					
-					
-					<div class="col-md-7" style="text-align: center;">
-						<div>Produktüberschrift</div>
-						<div>Kurzbeschreibung</div>
-					</div>
-					
-					
-					<div class="col-md-3" style="text-align: center;">
-						<h4>Schulklasse</h4>
-						<h4>Preis</h4>
-					</div>		
-				</div>
-				
 			</div>
 	</div>
 	

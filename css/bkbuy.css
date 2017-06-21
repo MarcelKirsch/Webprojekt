@@ -182,16 +182,19 @@ body {
 
 .suchergebnis {
 	padding: 10px 5px;
-	border: 1px solid black;
+	border: 1px solid #c1c1c1;
+	border-radius: 3px;
+}
+.suchergebnis:hover {
+	border: 1px solid #909090;
 }
 
 #sucheseite-sortieren {
-	padding-top: 0px;
+	
 }
 
 #artikel-suche-suchleiste {
-	 padding-top: 15px; 
-	 padding-right: 150px;	
+	 padding-top: 15px; 	
 }
 
 /*  */

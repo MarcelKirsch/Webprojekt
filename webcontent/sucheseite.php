@@ -13,6 +13,7 @@
 	
 	<!-- Seiteninhalt -->
 	<div class="container">
+		<div class="row container-body" style="padding-top: 10px;">
 		
 			<div class="col-md-3">
 				<p class="lead">Kategorien</p>
@@ -42,13 +43,13 @@
 						<!-- /btn-group -->
 					</div>
 
-			<button type="button" class="btn btn-default pull-right" id="sucheseite-sortieren">Sortieren</button>
 				
+				<button type="button" class="btn btn-default pull-right" id="sucheseite-sortieren">Sortieren</button>
 				
 				<!-- Artikelansichten -->
-				<div class="row" style="padding-top: 60px">
-					<div class="col-md-2">
-						<img src="../img/artikelbild.jpg" alt="Artikelbild" style="width: 80%; text-align: center; border-radius: 5px">
+				<div class="row suchergebnis">
+					<div class="col-md-2 col-center">
+						<img src="../img/artikelbild.jpg" alt="Artikelbild" id="suche-artikelbild">
 					</div>
 					
 					
@@ -61,7 +62,8 @@
 					<div class="col-md-3" style="text-align: center;">
 						<h4>Schulklasse</h4>
 						<h4>Preis</h4>
-					</div>
+					</div>	
+									
 				</div>
 			</div>
 	</div>

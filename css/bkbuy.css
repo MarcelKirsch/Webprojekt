@@ -174,9 +174,19 @@ body {
 }
 
 /* SUCHE-SEITE */
+#suche-artikelbild {
+	width: 80%; 
+	text-align: center; 
+	border-radius: 5px;
+}
+
+.suchergebnis {
+	padding: 10px 5px;
+	border: 1px solid black;
+}
 
 #sucheseite-sortieren {
-	margin-top: 15px;
+	padding-top: 0px;
 }
 
 #artikel-suche-suchleiste {

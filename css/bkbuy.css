@@ -138,6 +138,12 @@ body {
 	margin-right: 15px;
 }
 
+/* STARTSEITE */
+
+#thumbnail-body:hover {
+	border: 1px solid #c1c1c1;
+}
+
 /* ARTIKELSEITE */
 
 .carousel-artikel {

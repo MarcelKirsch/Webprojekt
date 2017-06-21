@@ -16,7 +16,7 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	if ($i <= 6) {
 		
 		print (" <div class=\"col-sm-4 col-lg-4 col-md-4\"> ") ;
-		print (" <div class=\"thumbnail\"> ") ;
+		print (" <div class=\"thumbnail\" id = \"thumbnail-body\"> ") ;
 		//print(" <img src=data:image/jpeg;base64,base64_encode( $zeile[Thumbnail] )  />  ");
 		print (" <div class=\"caption\"> ") ;
 		print (" <h4 class=\"pull-right\"> $zeile[Preis] €</h4> ") ;

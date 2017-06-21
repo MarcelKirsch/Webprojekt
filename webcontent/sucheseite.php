@@ -18,9 +18,7 @@
 			<div class="col-md-3">
 				<p class="lead">Kategorien</p>
 				<div class="list-group">
-					<a href="#" class="list-group-item">Category 1</a> 
-					<a href="#" class="list-group-item">Category 2</a> 
-					<a href="#"	class="list-group-item">Category 3</a>
+					<?php include("../php/getcategories.php");?>
 				</div>
 			</div>
 

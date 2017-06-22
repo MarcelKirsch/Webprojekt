@@ -19,8 +19,8 @@ if(empty($productname) OR empty($productdescription) OR empty($productprice))
 }
 else{
 
-	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung) VALUES (?,?,?)");
-	$stmt->bind_param('sss', $productname, $productprice, $productdescription);
+	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung, KatID) VALUES (?,?,?,?)");
+	$stmt->bind_param('ssss', $productname, $productprice, $productdescription, $kategorie);
 	
 	
 	

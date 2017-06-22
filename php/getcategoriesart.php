@@ -15,7 +15,10 @@ if (! $db_erg) {
 
 
 while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
-	print (" <option> $zeile[Katname] </option>  ") ;
+	// print (" <option value="$zeile['KATID']"> $zeile[Katname] </option>  ") ;
+	echo '
+		<option value="'.$zeile['KatID'] .'"> ' .$zeile['Katname'] .' </option>
+	';
 	
 }
 

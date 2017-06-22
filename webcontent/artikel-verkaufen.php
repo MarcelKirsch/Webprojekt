@@ -98,31 +98,6 @@
 			</div>
 			<!-- /.modal -->
 
-
-
-			<script> 
- 		$(document).ready(function(){
-
-
-			$('#modaldialog').dialog({
-		        modal: true,
- 		        autoOpen: false,
- 			});
-		            	
-		 $('#ok').on('click', function() {
- 		        var name = $('#productname').val();
-		        var email = $('#productdescription').val();
-		        var subject = $('#productprice').val();
-		        $.ajax({
- 		            success: function() {
-		                $('#dmodaldialog').dialog('open');
-// 		            }
-// 		        });
-// 		    });
-// 		});
-
-		</script>
-
 		</div>
 	</div>
 

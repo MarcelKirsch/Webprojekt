@@ -40,7 +40,7 @@
 					<h4>Avatar</h4>
 					<form method="post" enctype="multipart/form-data">
 				  		<label>
-					    	<input name="datei" type="file" size="5120" accept="image/*" multiple> 
+					    	<input name="datei" type="file" size="5120" accept="image/*"> 
 				  		</label>  
 					  <button class="btn btn-default pull-right">Abschicken</button>
 					</form>

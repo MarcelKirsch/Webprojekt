@@ -231,7 +231,8 @@ body {
 }
 
 .thumbnail img {
-	width:100%;
+	width: 320px;
+	height: 250px;
 }
 
 .ratings {
@@ -241,7 +242,7 @@ body {
 }
 
 .thumbnail {
-    padding: 0;
+	padding: 0;
 }
 
 .thumbnail .caption-full {

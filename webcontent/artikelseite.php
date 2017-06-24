@@ -56,7 +56,6 @@
 					
 					
 					<div class="col-md-5">
-						<button class="btn">Email schreiben</button>
 						
 						<h4>Verkäufer:</h4>
 						<h4>Schulklasse: </h4>
@@ -79,9 +78,9 @@
 		</div>
 		
 		
-		<!-- Andere Artikel des Verkäufers -->
+		<!-- Anderer Artikel des Verkäufers -->
 		<div class="row container-body">
-		<h2>Andere Artikel des Verkäufers</h2>
+		<h2>Anderer Artikel des Verkäufers</h2>
 			
 			
 			<!-- Bilder Carousel -->
@@ -130,7 +129,7 @@
 		
 		<!-- Ähnliche Artikel -->
 		<div class="row container-body ">
-		<h2>Ähnliche Artikel</h2>
+		<h2>Ähnlicher Artikel</h2>
 			<div class="col-md-8 carousel-artikel ">
 			
 			

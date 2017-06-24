@@ -67,8 +67,8 @@
 				</table>
 				<input type="submit" name="ok" class="btn btn-success" value="Bestätigen"> 
 				<input type="reset" class="btn btn-warning" value="Löschen"> 
-				<a href="../webcontent/startseite.php"> 
-					<input type="submit" class="btn btn-danger" value="Abbrechen">
+				<a href="..\webcontent\startseite.php"> 
+					<input type="button" class="btn btn-danger" value="Abbrechen">
 				</a>
 
 			</form>

@@ -50,8 +50,14 @@
 						</tr>
 						<tr>
 							<td id="table-description">Produktbilder</td>
-							<td><input id="upload-pictures02" name="upload-pictures1[]"
-								type="file" class="file-loading" accept="image/*" multiple></td>
+							<td>
+							<form method="post" enctype="multipart/form-data">
+						  		<label>
+							    	<input name="datei" type="file" size="5120" accept="image/*" multiple> 
+						  		</label>  
+							  <button class="btn btn-default pull-right">Abschicken</button>
+							</form>
+							</td>
 						</tr>
 						<tr>
 							<td id="table-description">Kategorie</td>

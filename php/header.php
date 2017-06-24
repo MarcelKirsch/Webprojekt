@@ -44,10 +44,7 @@
 			                                <div class="form-group">
 			                                    <label for="password">Password</label>
 			                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
-			                                	
-			                                	<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal">Passwort vergessen?</a><br>
-                                                <input type="checkbox" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6"> Angemeldet bleiben
-			                                	
+			                                				                                	
 			                                </div>
 											
 				                                <div class="form-group" style="margin: 30px 0">

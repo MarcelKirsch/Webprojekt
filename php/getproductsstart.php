@@ -17,7 +17,7 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 		
 		print (" <div class=\"col-sm-4 col-lg-4 col-md-4\"> ") ;
 		print (" <div class=\"thumbnail\" id = \"thumbnail-body\"> ") ;
-		//print(" <img src=data:image/jpeg;base64,base64_encode( $zeile[Thumbnail] )  />  ");
+		echo '<img src="data:image/jpeg;base64,'.base64_encode($zeile['Thumbnail']). '"/>';
 		print (" <div class=\"caption\"> ") ;
 		print (" <h4 class=\"pull-right\"> $zeile[Preis] €</h4> ") ;
 		print (" <h4><a href=\"#\"> $zeile[Produktname] </a> ") ;
@@ -31,6 +31,7 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	}
 	// print($i);
 }
+
 
 mysqli_free_result ( $db_erg );
 ?>

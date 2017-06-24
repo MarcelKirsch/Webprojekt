@@ -52,7 +52,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -71,7 +71,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -90,7 +90,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -113,7 +113,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -132,7 +132,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -151,7 +151,7 @@
 			                                            <h5>Product with Variants</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color">$149.99</h5>
+			                                            <h5 class="price-text-color pull-right">149.99€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">

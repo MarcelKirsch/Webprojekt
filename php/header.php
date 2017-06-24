@@ -22,7 +22,9 @@
 					 </div>
 				</form>
 		     
+				<a href="..\webcontent\artikel-verkaufen.php">
 				<button type="button" class="btn btn-default button-anzeige">Artikel einstellen</button>
+				</a>
 		     
 			
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">

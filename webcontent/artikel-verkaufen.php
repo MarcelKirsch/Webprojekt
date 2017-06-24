@@ -66,7 +66,7 @@
 					</tbody>
 				</table>
 				<input type="submit" name="ok" class="btn btn-success" value="Bestätigen"> 
-				<input type="submit" class="btn btn-warning" value="Löschen"> 
+				<input type="reset" class="btn btn-warning" value="Löschen"> 
 				<a href="../webcontent/startseite.php"> 
 					<input type="submit" class="btn btn-danger" value="Abbrechen">
 				</a>
@@ -92,11 +92,8 @@
 								data-dismiss="modal">OK</button>
 						</div>
 					</div>
-					<!-- /.modal-content -->
 				</div>
-				<!-- /.modal-dialog -->
 			</div>
-			<!-- /.modal -->
 
 		</div>
 	</div>

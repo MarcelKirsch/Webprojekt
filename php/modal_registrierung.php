@@ -22,7 +22,7 @@
 							<h4>Passwort</h4>
 							<input type="password" class="form-control" name = "password" aria-describedby="groessen-addon2"><br><br>
 							
-							<h4>EMail Adresse</h4>
+							<h4>E-Mail Adresse</h4>
 							<input type="text" class="form-control" name = "email" aria-describedby="groessen-addon2"><br><br>
 						</div>
 						<div class="col-md-6">

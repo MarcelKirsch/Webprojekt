@@ -23,10 +23,27 @@
 					</div>
 				</form>
 
-				<a href="..\webcontent\artikel-verkaufen.php">
+				<?php if(!isset($_SESSION['loggedin'])){
+					echo '
+							<a href="..\webcontent\artikel-verkaufen.php">
+					<button type="button" class="btn btn-default button-anzeige" disabled>Artikel
+						einstellen</button>
+				</a>
+						 ';
+				}
+				else{
+					echo '
+							<a href="..\webcontent\artikel-verkaufen.php">
 					<button type="button" class="btn btn-default button-anzeige">Artikel
 						einstellen</button>
 				</a>
+						 ';
+				}?>
+
+				
+
+
+				
 
 
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">

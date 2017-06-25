@@ -15,7 +15,11 @@ $image = addslashes(file_get_contents($_FILES['datei']['tmp_name']));
 
 if(empty($productname) OR empty($productdescription) OR empty($productprice))
 {
-	print("Bitte alle Felder ausf�llen!");
+	echo '
+			<script type="text/javascript">
+				$("#modal_meldung_01").modal("show");
+			</script>
+			';
 }
 else{
 

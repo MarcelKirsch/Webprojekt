@@ -12,7 +12,11 @@ if(isset($_POST["login-submit"])){
 	
 	if(empty($username) OR empty($password))
 	{
-		print("Bitte geben sie Benutzername & Password ein.");
+		echo '
+				<script type="text/javascript">
+					$("#modal_meldung_02").modal("show");
+				</script>
+				';
 	}
 	
 	else{
@@ -21,7 +25,11 @@ if(isset($_POST["login-submit"])){
 		
 		if($query->num_rows == 0)
 		{
-			print("Benutzername und/oder Kennwort ist falsch.");
+			echo '
+				<script type="text/javascript">
+					$("#modal_meldung_03").modal("show");
+				</script>
+				';
 		}
 		else{
 			$_SESSION['loggedin'] = True;

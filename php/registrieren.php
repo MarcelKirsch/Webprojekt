@@ -23,10 +23,18 @@ if(isset($_POST["ok"])){
 	
 	elseif ($query->num_rows != 0){
 		//Meldung f�r vergebenen Benutzer
-		print("Benutzer schon vergeben!");
+		echo '
+				<script type="text/javascript">
+					$("#modal_meldung_06").modal("show");
+				</script>
+				';
 	}
 	elseif(strlen($password) < 6){
-		print("Passwort muss mindestens 5 Zeichen haben.");
+		echo '
+				<script type="text/javascript">
+					$("#modal_meldung_07").modal("show");
+				</script>
+				';
 	}
 	else{
 		//Passwort verschlüsseln wa

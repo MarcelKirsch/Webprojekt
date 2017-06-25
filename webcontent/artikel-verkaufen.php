@@ -24,11 +24,9 @@
 				<table class="table">
 					<thead>
 						<tr>
-
 						</tr>
 					</thead>
 					<tbody>
-
 						<tr>
 							<td id="table-description">Produktname</td>
 							<td><input type="text" class="form-control" name="productname"
@@ -55,8 +53,6 @@
 						  		<label>
 							    	<input name="datei" type="file" size="5120" accept="image/*" multiple> 
 						  		</label>  
-							  
-							
 							</td>
 						</tr>
 						<tr>
@@ -65,10 +61,6 @@
 								<?php include ("../php/getcategoriesart.php");?>
 							</select></td>
 						</tr>
-
-
-
-
 					</tbody>
 				</table>
 				
@@ -78,7 +70,6 @@
 				<a href="..\webcontent\startseite.php"> 
 					<input type="button" class="btn btn-danger" value="Abbrechen">
 				</a>
-
 			</form>
 
 

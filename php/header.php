@@ -26,7 +26,7 @@
 				<button type="button" class="btn btn-default button-anzeige">Artikel einstellen</button>
 				</a>
 		     
-			
+				
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">
 					<li class="dropdown">
 			                    <a href="#" class="profilbutton dropdown-toggle" data-toggle="dropdown"></a>
@@ -39,7 +39,6 @@
 			                                <div class="form-group">
 			                                    <label for="username">Benutzername</label>
 			                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Benutzername" value="" autocomplete="off">
-			                                </div>
 			
 			                                <div class="form-group">
 			                                    <label for="password">Password</label>

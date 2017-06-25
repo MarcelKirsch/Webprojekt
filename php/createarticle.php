@@ -1,5 +1,4 @@
 <?php
-
 // TODO: Ausgew�hltes Bild in die Datenbank hochladen
 // TODO: Kategorie als ID im Fremdschl�ssel speichern...
 // TODO: Bei erfolgreichem eintragen in die Datenbank eine Best�tigung hinzuf�gen

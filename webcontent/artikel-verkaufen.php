@@ -18,7 +18,7 @@
 
 
 
-			<form method="post">
+			<form method="post" enctype="multipart/form-data">
 				<h1>Artikel verkaufen</h1>
 
 				<table class="table">
@@ -51,12 +51,12 @@
 						<tr>
 							<td id="table-description">Produktbilder</td>
 							<td>
-							<form method="post" enctype="multipart/form-data">
+							
 						  		<label>
 							    	<input name="datei" type="file" size="5120" accept="image/*" multiple> 
 						  		</label>  
-							  <button class="btn btn-default pull-right">Abschicken</button>
-							</form>
+							  
+							
 							</td>
 						</tr>
 						<tr>

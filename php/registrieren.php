@@ -11,27 +11,30 @@ if(isset($_POST["ok"])){
 	$afternamelol = $_POST ["afternamelol"];
 	$schoolclass = $_POST ["schoolclass"];
 	
+	
+	$image = addslashes(file_get_contents($_FILES['datei']['tmp_name']));
+	
  	$query = $conn->query ("SELECT * FROM benutzer WHERE Benutzername = '$username'");
 
  	if(empty($username) OR empty($password) OR empty($email) OR empty($prename) OR empty($afternamelol) OR empty($schoolclass))
  	{
- 	print("Bitte alles ausfüllen!");
+ 	print("Bitte alles ausfÃ¼llen!");
 	}
 	
 	elseif ($query->num_rows != 0){
-		//Meldung für vergebenen Benutzer
+		//Meldung fï¿½r vergebenen Benutzer
 		print("Benutzer schon vergeben!");
 	}
 	elseif(strlen($password) < 6){
 		print("Passwort muss mindestens 5 Zeichen haben.");
 	}
 	else{
-		//Passwort verschlüsseln wa
+		//Passwort verschlÃ¼sseln wa
 		$password = md5($password);
 		
-		$stmt = $conn->prepare("INSERT INTO benutzer (Benutzername,Email,Passwort,Vorname,Nachname,Klasse) VALUES (?,?,?,?,?,?)");
+		$stmt = $conn->prepare("INSERT INTO benutzer (Benutzername,Email,Passwort,Vorname,Nachname,Klasse,Avatar) VALUES (?,?,?,?,?,?,?)");
 		
-		$stmt->bind_param('ssssss', $username,$email,$password,$prename,$afternamelol,$schoolclass);
+		$stmt->bind_param('sssssss', $username,$email,$password,$prename,$afternamelol,$schoolclass,$image);
 
 		$stmt->execute();
 		

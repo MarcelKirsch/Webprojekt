@@ -33,10 +33,8 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-menu-right">
-									<li><a href="#">Elektronik</a></li>
-									<li><a href="#">Haushalt</a></li>
-									<li><a href="#">Kleidung</a></li>
-									<li><a href="#">Lebensmittel</a></li>
+									
+									<?php include("..\php\getcategoriessearch.php"); ?>
 								</ul>
 							</div>
 						<button type="button" class="btn btn-default pull-right" id="sucheseite-sortieren">Sortieren</button>

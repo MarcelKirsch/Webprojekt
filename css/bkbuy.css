@@ -26,6 +26,10 @@ body {
 	position: absolute;
 }
 
+.navbar:hover {
+	border-bottom: 1px solid #c1c1c1;
+}
+
 .navbar-header {
 	height: 75px;
 }
@@ -269,6 +273,7 @@ body {
     padding: 9px;
     color: #333;
 }
+
 footer {
 	margin: 50px 0 0 0;
 	background-color: #c0c0c0;

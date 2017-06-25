@@ -32,12 +32,8 @@
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suchen
 									<span class="caret"></span>
 								</button>
-								<ul class="dropdown-menu dropdown-menu-right">
-									
-									<?php include("..\php\getcategoriessearch.php"); ?>
-								</ul>
+								<button class="btn btn-default">Suchen</button>
 							</div>
-						<button type="button" class="btn btn-default pull-right" id="sucheseite-sortieren">Sortieren</button>
 					</div><br>
 				
 				

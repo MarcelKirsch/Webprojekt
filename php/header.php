@@ -1,5 +1,5 @@
 <?php include '..\php\modal_registrierung.php';?>
-<?php include '..\php\modal_password_reset.php';?>
+
 <?php include '..\php\login.php'?>
 <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 	<div class="container-fluid">

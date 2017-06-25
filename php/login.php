@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include ("connectdb.php");
 $conn->set_charset ( 'utf8' );
 
@@ -22,9 +23,19 @@ if(isset($_POST["login-submit"])){
 			print("Benutzername und/oder Kennwort ist falsch.");
 		}
 		else{
-			print("Erfolgreich eingeloggt.");
+			$_SESSION['loggedin'] = True;
+			$_SESSION['user'] = $username;
+			
+			echo ' "Wilkommen" '.$username .' ';
 		}
 }
+	
+}
+
+if(!isset($_SESSION['loggedin'])){
+	
+}
+else{
 	
 }
 

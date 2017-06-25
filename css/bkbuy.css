@@ -214,8 +214,8 @@ body {
 
 .carousel-holder {
     margin-bottom: 30px;
-    height: auto;
-    width: 200px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .carousel-control,

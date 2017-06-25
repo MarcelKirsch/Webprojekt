@@ -1,6 +1,7 @@
 <?php 
 session_start();
 include ("connectdb.php");
+include '..\php\modals_meldungen.php';
 $conn->set_charset ( 'utf8' );
 
 if(isset($_POST["login-submit"])){
@@ -26,7 +27,11 @@ if(isset($_POST["login-submit"])){
 			$_SESSION['loggedin'] = True;
 			$_SESSION['user'] = $username;
 			
-			echo ' "Wilkommen" '.$username .' ';
+			echo '
+				<script type="text/javascript">
+					$("#modal_meldung_04").modal("show");
+				</script>				
+				';
 		}
 }
 }

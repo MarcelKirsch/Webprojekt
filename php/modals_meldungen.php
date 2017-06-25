@@ -74,7 +74,7 @@
         <h4 class="modal-title" id="meinModalLabel">Meldung von der Webseite</h4>
       </div>
       <div class="modal-body">
-        Bitte alle Felder ausfüllen
+        Sie wurden ausgeloggt
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>

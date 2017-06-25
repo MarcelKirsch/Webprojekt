@@ -27,12 +27,9 @@
 			<!-- Suchinhalte -->
 			<div class="col-md-9">
 					<div class="input-group" id="artikel-suche-suchleiste">
-							<input type="text" class="form-control" aria-label="..." style="max-width: 500px;">
 							<div class="input-group-btn">
-								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suchen
-									<span class="caret"></span>
-								</button>
-								<button class="btn btn-default">Suchen</button>
+								<input type="text" class="form-control" aria-label="..." style="max-width: 500px;">
+								<button class="btn btn-default">Suchen</button>	
 							</div>
 					</div><br>
 				

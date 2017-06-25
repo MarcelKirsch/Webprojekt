@@ -29,14 +29,5 @@ if(isset($_POST["login-submit"])){
 			echo ' "Wilkommen" '.$username .' ';
 		}
 }
-	
 }
-
-if(!isset($_SESSION['loggedin'])){
-	
-}
-else{
-	
-}
-
 ?>

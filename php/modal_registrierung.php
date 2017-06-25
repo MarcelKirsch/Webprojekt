@@ -3,7 +3,7 @@
 <?php include '..\php\meta-attributes.php';?>
  <?php include '..\php\registrieren.php';?>
   <div class="modal-dialog" style="width: 100%;">
-  <form method ="POST">
+  <form method ="POST" enctype="multipart/form-data">
     <div class="modal-content" style="width: 100%;">
       <div class="modal-header" style="width: 100%;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span aria-hidden="true">&times;</span></button>
@@ -38,19 +38,14 @@
 					
 					</div>
 					<h4>Avatar</h4>
-					<form method="post" enctype="multipart/form-data">
 				  		<label>
-					    	<input name="datei" type="file" size="5120" accept="image/*"> 
-				  		</label>  
-					  <button class="btn btn-default pull-right">Abschicken</button>
-					</form>
-					
+					    	<input type="file"  name="datei" size="5120"  accept="image/*"> 
+				  		</label>
 		</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
         <input type="submit" name="ok" class="btn btn-success" value="Registrieren">
-      
       </div>
     </div>
       </form>

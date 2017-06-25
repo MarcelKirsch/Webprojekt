@@ -1,8 +1,8 @@
 <?php
 
-// TODO: Ausgewähltes Bild in die Datenbank hochladen
-// TODO: Kategorie als ID im Fremdschlüssel speichern...
-// TODO: Bei erfolgreichem eintragen in die Datenbank eine Bestätigung hinzufügen
+// TODO: Ausgewï¿½hltes Bild in die Datenbank hochladen
+// TODO: Kategorie als ID im Fremdschlï¿½ssel speichern...
+// TODO: Bei erfolgreichem eintragen in die Datenbank eine Bestï¿½tigung hinzufï¿½gen
 include ("connectdb.php");
 $conn->set_charset ( 'utf8' );
 
@@ -12,26 +12,22 @@ $productdescription = $_POST ["productdescription"];
 $productprice = $_POST ["productprice"];
 $kategorie = $_POST ["kategorie"];
 
+$image = addslashes(file_get_contents($_FILES['datei']['tmp_name']));
 
 if(empty($productname) OR empty($productdescription) OR empty($productprice))
 {
-	print("Bitte alle Felder ausfüllen!");
+	print("Bitte alle Felder ausfï¿½llen!");
 }
 else{
 
-	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung, KatID) VALUES (?,?,?,?)");
-	$stmt->bind_param('ssss', $productname, $productprice, $productdescription, $kategorie);
-	
-	
-	
+	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung, KatID,Thumbnail) VALUES (?,?,?,?,?)");
+	$stmt->bind_param('ssssb', $productname, $productprice, $productdescription, $kategorie,$image);
+
+	$stmt->send_long_data(4,$image);
 	$stmt->execute();
-	
-	
-	
-	
-	
+
 	$stmt->close();
-	
+
 }
 
 }

@@ -33,7 +33,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-menu-right">
-									<li><a href="#">Elektronik</a></li>
+									
 									<?php include("..\php\getcategoriessearch.php"); ?>
 								</ul>
 							</div>

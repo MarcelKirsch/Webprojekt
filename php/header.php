@@ -25,7 +25,7 @@
 
 				<?php if(!isset($_SESSION['loggedin'])){
 					echo '
-							<a href="..\webcontent\artikel-verkaufen.php">
+							<a href="../artikel-verkaufen.php">
 					<button type="button" class="btn btn-default button-anzeige" disabled>Artikel
 						einstellen</button>
 				</a>
@@ -33,18 +33,12 @@
 				}
 				else{
 					echo '
-							<a href="..\webcontent\artikel-verkaufen.php">
+							<a href="../webcontent/artikel-verkaufen.php">
 					<button type="button" class="btn btn-default button-anzeige">Artikel
 						einstellen</button>
 				</a>
 						 ';
 				}?>
-
-				
-
-
-				
-
 
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">
 					<li class="dropdown"><a href="#"
@@ -91,7 +85,7 @@
 												<div class="profilbild"></div>
 												</div>
 												<div class="col-md-9">
-												<h5>Vorname, Nachname</h5>
+												<h5>'.$_SESSION['prename'].', '.$_SESSION['afternamelol'].'</h5>
 												<a href="#"><h5>Mein Profil</h5></a>
 												</div>
 												</div>
@@ -109,7 +103,7 @@
 												</div> <hr>
 												</div>
 												<div class="text-center">
-												<a href="..\php\logout.php">												
+												<a href="../php/logout.php">												
 													<div class="btn btn-danger" style="min-width: 140px; margin: 0 0 8px 0">
 					                        		Abmelden </div>
 												</a>

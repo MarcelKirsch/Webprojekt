@@ -166,7 +166,7 @@
 	
 					<!-- Einzelprodukte -->
 					<div class="row">	
-						<h3>Irgendwas</h3>
+						<h3>Zufällige Produkte</h3>
 						<?php include("../php/getproductsstart.php");?>	
 					</div>	
 				</div>	

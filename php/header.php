@@ -42,7 +42,7 @@
 
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">
 					<li class="dropdown"><a href="#"
-						class="profilbutton dropdown-toggle" data-toggle="dropdown"></a>
+						class="profilbutton dropdown-toggle" data-toggle="dropdown" style=background-image:<?php $_SESSION['avatar'];?>></a>
 			                    <?php
 									if (! isset ( $_SESSION ['loggedin'] )) {
 										echo '                                      

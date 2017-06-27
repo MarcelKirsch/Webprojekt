@@ -35,7 +35,7 @@ if(isset($_POST["login-submit"])){
 		else{
 			$_SESSION['loggedin'] = True;
 			$_SESSION['user'] = $username;
-			
+			$_SESSION['avatar']= NULL;
 			
 			
 			
@@ -58,11 +58,14 @@ if(isset($_POST["login-submit"])){
 				
 				$_SESSION['prename']= $zeile['Vorname'];
 				$_SESSION['afternamelol']= $zeile['Nachname'];
-				
+				$_SESSION['avatar']=base64_encode($zeile['Avatar']);
 		
 	
 			}
 			
+			if ($_SESSION['avatar'] = NULL){
+				$_SESSION['avatar']= url("../img/Profilbild2.jpg");
+			}
 			
 			
 			mysqli_free_result ( $db_erg );

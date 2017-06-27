@@ -23,8 +23,8 @@ if(empty($productname) OR empty($productdescription) OR empty($productprice))
 }
 else{
 
-	$stmt = $conn->prepare("INSERT INTO produkte (Produktname, Preis,Beschreibung, KatID,Thumbnail) VALUES (?,?,?,?,?)");
-	$stmt->bind_param('ssssb', $productname, $productprice, $productdescription, $kategorie,$image);
+	$stmt = $conn->prepare("INSERT INTO produkte (BenutzerID,Produktname, Preis,Beschreibung, KatID,Thumbnail) VALUES (?,?,?,?,?,?)");
+	$stmt->bind_param('sssssb',$_SESSION['benutzerid'], $productname, $productprice, $productdescription, $kategorie,$image);
 
 	$stmt->send_long_data(4,$image);
 	$stmt->execute();

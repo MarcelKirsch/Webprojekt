@@ -36,7 +36,7 @@ if(isset($_POST["login-submit"])){
 			$_SESSION['loggedin'] = True;
 			$_SESSION['user'] = $username;
 			$_SESSION['avatar']= NULL;
-			
+			$_SESSION['benutzerid']=0;
 			
 			
 			echo '
@@ -59,7 +59,7 @@ if(isset($_POST["login-submit"])){
 				$_SESSION['prename']= $zeile['Vorname'];
 				$_SESSION['afternamelol']= $zeile['Nachname'];
 				$_SESSION['avatar']=base64_encode($zeile['Avatar']);
-		
+				$_SESSION['benutzerid']=$zeile['BenutzerID'];
 	
 			}
 			

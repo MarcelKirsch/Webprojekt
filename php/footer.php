@@ -6,7 +6,7 @@
 				<h3>Über uns</h3>		
 				<strong>Timo Brand </strong>- Front-End Designer<br>
 				Fachinformatiker Anwendungsentwicklung<br> 
-				GEA Westfalia Seperator GmbH <br><br>
+				GEA Westfalia Group Seperator GmbH <br><br>
 				
 				<strong>Jonathan Huerkamp </strong>- Back-End Entwickler<br>
 				Fachinformatiker Anwendungsentwicklung<br> 

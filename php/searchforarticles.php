@@ -14,7 +14,7 @@ if(isset($_POST['suchego']))
 	if (! $db_erg) {
 		die ( 'Ungültige Abfrage...' );
 	}
-
+	$i = 1;
 	while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	
 			$name = strtolower($zeile['Produktname']);
@@ -30,7 +30,7 @@ if(isset($_POST['suchego']))
 					
 					
 					<div class="col-md-7" style="text-align: center;">
-						<div><a href=#><b>'.$zeile['Produktname'].'</b></a></div>
+						<div><a href="../webcontent/piseite'.$i.'.php"><b>'.$zeile['Produktname'].'</b></a></div>
 						<div>'.$zeile['Beschreibung'].'</div>
 					</div>
 					  
@@ -44,6 +44,7 @@ if(isset($_POST['suchego']))
 					</div>
 				</div>		
 			 ';
+			$i++;
 			}
 		
 

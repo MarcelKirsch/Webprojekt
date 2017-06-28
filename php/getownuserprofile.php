@@ -56,13 +56,13 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 						</ol>
 						<div class="carousel-inner">
 							<div class="item active">
-								<img class="slide-image" src="http://placehold.it/800x300" alt="">
+								<img class="slide-image" src="../piimg/raspi2/Produktbild1.jpg" alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="http://placehold.it/800x300" alt="">
+								<img class="slide-image" src="../piimg/raspi2/Produktbild2.jpg" alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="http://placehold.it/800x300" alt="">
+								<img class="slide-image" src="../piimg/raspi2/Produktbild3.jpg" alt="">
 							</div>
 						</div>
 							<a class="left carousel-control" href="#carousel-02"

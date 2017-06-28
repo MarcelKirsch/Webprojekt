@@ -44,15 +44,15 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produk4.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>2xEsszimmerstuhl</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color pull-right">149.99€</h5>
+			                                            <h5 class="price-text-color pull-right">50€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -63,15 +63,15 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produkt5.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>Kunstlederjacke</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color pull-right">149.99€</h5>
+			                                            <h5 class="price-text-color pull-right">30€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -82,15 +82,15 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produkt6.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>Smoothie Maker</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color pull-right">149.99€</h5>
+			                                            <h5 class="price-text-color pull-right">33€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -105,15 +105,15 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produkt7.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>Tiernapf</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color pull-right">149.99€</h5>
+			                                            <h5 class="price-text-color pull-right">10€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -124,15 +124,15 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produkt8.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>2x Kurzhanteln</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
-			                                            <h5 class="price-text-color pull-right">149.99€</h5>
+			                                            <h5 class="price-text-color pull-right">40€</h5>
 			                                        </div>
 			                                    </div>
 			                                    <div class="clearfix">
@@ -143,12 +143,12 @@
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
 			                                <div class="photo">
-			                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+			                                    <img src="../piimg/startcaroussel/produkt9.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
 			                                        <div class="price col-md-6">
-			                                            <h5>Product with Variants</h5>
+			                                            <h5>Quadrocopter</h5>
 			                                        </div>
 			                                        <div class="price col-md-6">
 			                                            <h5 class="price-text-color pull-right">149.99€</h5>

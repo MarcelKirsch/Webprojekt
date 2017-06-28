@@ -37,7 +37,7 @@ if(isset($_POST['suchego']))
 					
 					<div class="col-md-3">
 						<table>
-						<tr><th><h4>Verkäufer</h4></th><td><h5 id="tabelle_text">DeinText</h5></td></tr>
+						<tr><th><h4>Verkäufer</h4></th><td><h5 id="tabelle_text">'.$_SESSION['prename'].',<br>'.$_SESSION['afternamelol'].'</h5></td></tr>
 						<tr><th><h4>Klasse</h4></th><td><h5 id="tabelle_text">'.$_SESSION['klasse'].'</h5></td></tr>
 						<tr><th><h4>Preis</h4></th><td><h5 id="tabelle_text">'.$zeile['Preis'].'&#8364</h5></td></tr>
 						</table>					

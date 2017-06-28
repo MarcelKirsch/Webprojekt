@@ -41,11 +41,14 @@
 				}?>
 
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">
-					<li class="dropdown"><a href="#"
-						class="profilbutton dropdown-toggle" data-toggle="dropdown" style=background-image:<?php $_SESSION['avatar'];?>></a>
+					
+			             
+			             
 			                    <?php
 									if (! isset ( $_SESSION ['loggedin'] )) {
-										echo '                                      
+										echo '
+											<li class="dropdown"><a href="#"
+											class="profilbutton dropdown-toggle" data-toggle="dropdown"></a>                                      
 											<ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu" style="width: 250px">
 				                            <div class="text-center border" style="border: 1px solid #e3e3e3; margin: -7px 0 12px 0; background-color: #e3e3e3"><h4><b>Anmelden</b></h4></div>
 						                        <div class="col-md-12">
@@ -72,17 +75,19 @@
 					                    			Neu hier? <a href="#">Tritt uns bei!</a></div>
 						                        </div>
 											</ul>
-
+										</li>
 										';
 									} else {
 									echo '
+								<li class="dropdown"><a href="#"
+					class="profilbutton dropdown-toggle" data-toggle="dropdown" style=background-image:url("../img/Flash.jpg"); background-position: center; background-size: cover;></a>
 									<ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu" style="width: 250px">
 										<div class="text-center border" id="dropdown-css"><h4><b>Kontrollzentrum</b></h4></div>
 											<div class="col-md-12">
 												<div class="form-group">
 												<div class="row ">
 												<div class="col-md-3" style="padding: 0; margin: 0;">
-												<div class="profilbild"></div>
+												<div class="profilbild" style=background-image:url("../img/Flash.jpg")></div>
 												</div>
 												<div class="col-md-9">
 												<h5>'.$_SESSION['prename'].', '.$_SESSION['afternamelol'].'</h5>
@@ -109,11 +114,13 @@
 												</a>
 				                        	</div>
 										</div>
-									</ul>'
+									</ul>
+									</li>'
+						                                				                                			
                                    ;}
 									?>
 			                    
-						</li>
+						
 				</ul>
 			</div>
 		</div>

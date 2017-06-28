@@ -8,17 +8,9 @@
 </head>
   
 <body>
-	
 	<?php include '..\php\header.php';?>
 	<?php include '..\php\modals_meldungen.php';?>
-	
-	<div class="container">
-		<div class="container-body">
-
-			<?php include("../php/getownuserprofile.php")?>
-		</div>
-	</div>
-	<?php include '..\php\footer.php';?>
+	<?php include("../php/getownuserprofile.php")?>
+	<?php include '..\php\footer.php';?> 
 </body>
-  
 </html>

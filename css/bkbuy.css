@@ -233,6 +233,9 @@ body {
 }
 
 /*  */
+#tabelle_text {
+	padding-left: 14px;
+}
 
 .artikel-beschreibung {
 	text-align: justify;

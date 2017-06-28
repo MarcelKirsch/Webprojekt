@@ -15,6 +15,10 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	
 	if($i<1){
 		echo'
+				
+		<div class="container">
+			<div class="container-body">
+
 			<!-- Profilbild und Username, Klasse -->
 			<div class="row" id="benutzerseite">
 				
@@ -25,10 +29,12 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 				</div>
 				
 				<!-- Username, Schulklasse -->
-				<div class="col-md-10" style="text-align: center">
-					<div>'.$_SESSION['user'].'</div>
-					<div>'.$_SESSION['prename'].','.$_SESSION['afternamelol'].'</div>
-					<div>'.$_SESSION['klasse'].'</div>
+				<div class="col-md-10" style="text-align: left; padding-left: 35px; font-size: 22px">
+					<table>
+						<tr><th><b>Benutzername:</b></th><td id="tabelle_text">'.$_SESSION['user'].'</td></tr>
+						<tr><th><b>Vorname:</b></th><td id="tabelle_text">'.$_SESSION['prename'].','.$_SESSION['afternamelol'].'</td></tr>
+						<tr><th><b>Nachname:</b></th><td id="tabelle_text">'.$_SESSION['klasse'].'</td></tr>
+					</table>
 				</div>
 			</div>
 							
@@ -80,6 +86,8 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 		';
 		$i++;
 	}

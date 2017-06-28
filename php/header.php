@@ -16,14 +16,14 @@
 				<form class="navbar-form navbar-left"  method="post"  enctype="multipart/form-data">
 					<div class="form-group input-group-lg searchbar">
 						<input type="text" name="search" class="form-control"
-							placeholder="Suchen">
+							placeholder="Suchen" style="min-width: 400px">
 						<button type="submit"  name="suchego" class="btn btn-default btn-lg">Los</button>
 					</div>
 				</form>
 
 				<?php if(!isset($_SESSION['loggedin'])){
 					echo '
-							<div class="navbar-nav" style="margin: 22px 0 0 350px;">
+							<div class="navbar-nav" style="margin: 23px 0 0 500px;">
 								<a href="../artikel-verkaufen.php">
 									<button type="button" disabled class="btn btn-default" disabled>Artikel
 									einstellen</button>
@@ -33,7 +33,7 @@
 				}
 				else{
 					echo '
-							<div class="navbar-nav" style="margin: 22px 0 0 350px;">
+							<div class="navbar-nav" style="margin: 23px 0 0 500px;">
 								<a href="../artikel-verkaufen.php">
 									<button type="button" class="btn btn-default">Artikel
 									einstellen</button>

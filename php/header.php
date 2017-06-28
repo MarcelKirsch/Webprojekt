@@ -35,7 +35,7 @@
 					echo '
 							<div class="navbar-nav" style="margin: 22px 0 0 350px;">
 								<a href="../artikel-verkaufen.php">
-									<button type="button" class="btn btn-default" disabled>Artikel
+									<button type="button" class="btn btn-default">Artikel
 									einstellen</button>
 								</a>
 							</div>

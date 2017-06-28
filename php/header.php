@@ -13,7 +13,7 @@
 					src="../img/logo_trans.png" class="logo">
 				</a>
 				
-				<form class="navbar-form navbar-left"  method="post"  enctype="multipart/form-data">
+				<form class="navbar-form navbar-left border"  method="post"  enctype="multipart/form-data">
 					<div class="form-group input-group-lg searchbar">
 						<input type="text" name="search" class="form-control"
 							placeholder="Suchen" style="min-width: 400px">
@@ -23,22 +23,18 @@
 
 				<?php if(!isset($_SESSION['loggedin'])){
 					echo '
-							<div class="navbar-nav" style="margin: 23px 0 0 500px;">
 								<a href="../artikel-verkaufen.php">
-									<button type="button" disabled class="btn btn-default" disabled>Artikel
-									einstellen</button>
+									<button type="button" disabled class="btn btn-default" disabled style="margin: 23px 0 0 500px;"
+									>Artikel	einstellen</button>
 								</a>
-							</div>
 						 ';
 				}
 				else{
 					echo '
-							<div class="navbar-nav" style="margin: 23px 0 0 500px;">
 								<a href="../artikel-verkaufen.php">
-									<button type="button" class="btn btn-default">Artikel
-									einstellen</button>
+									<button type="button" class="btn btn-default" style="margin: 23px 0 0 500px;"
+									>Artikel einstellen</button>
 								</a>
-							</div>
 						 ';
 				}?>
 

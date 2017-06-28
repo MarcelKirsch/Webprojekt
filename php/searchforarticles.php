@@ -35,9 +35,12 @@ if(isset($_POST['suchego']))
 					</div>
 					  
 					
-					<div class="col-md-3" style="text-align: center;">
-						<h4>'.$_SESSION['klasse'].'</h4>
-						<h4>'.$zeile['Preis'].'&#8364</h4>
+					<div class="col-md-3">
+						<table>
+						<tr><th><h4>Verkäufer</h4></th><td><h5 id="tabelle_text">DeinText</h5></td></tr>
+						<tr><th><h4>Klasse</h4></th><td><h5 id="tabelle_text">'.$_SESSION['klasse'].'</h5></td></tr>
+						<tr><th><h4>Preis</h4></th><td><h5 id="tabelle_text">'.$zeile['Preis'].'&#8364</h5></td></tr>
+						</table>					
 					</div>
 				</div>		
 			 ';

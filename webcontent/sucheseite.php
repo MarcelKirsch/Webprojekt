@@ -26,32 +26,7 @@
 
 			<!-- Suchinhalte -->
 			<div class="col-md-9">
-					<div class="input-group" id="artikel-suche-suchleiste">
-							<div class="input-group-btn">
-								<input type="text" class="form-control" aria-label="..." style="max-width: 500px;">
-								<button class="btn btn-default">Suchen</button>	
-							</div>
-					</div><br>
-				
-				
-				<!-- Artikelansichten -->
-				<div class="row suchergebnis">
-					<div class="col-md-2 col-center">
-						<img src="../img/artikelbild.jpg" alt="Artikelbild" id="suche-artikelbild">
-					</div>
-					
-					
-					<div class="col-md-7" style="text-align: center;">
-						<div>Produktüberschrift</div>
-						<div>Kurzbeschreibung</div>
-					</div>
-					
-					
-					<div class="col-md-3" style="text-align: center;">
-						<h4>Schulklasse</h4>
-						<h4>Preis</h4>
-					</div>		
-				</div>
+					<?php include("../php/searchforarticles.php");?>
 				
 			</div>
 		</div>

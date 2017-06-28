@@ -12,14 +12,14 @@
 				<a class="navbar-brand" href="../webcontent/startseite.php"> <img
 					src="../img/logo_trans.png" class="logo">
 				</a>
-
-
+				
 				<!-- Suchleiste -->
-				<form class="navbar-form navbar-left" role="search">
+				<!-- role="search" -->
+				<form class="navbar-form navbar-left"  method="post"  enctype="multipart/form-data">
 					<div class="form-group input-group-lg searchbar">
-						<input type="text" style="width: 90%" class="form-control"
+						<input type="text" name="search" style="width: 90%" class="form-control"
 							placeholder="Suchen">
-						<button type="submit" class="btn btn-default btn-lg">Los</button>
+						<button type="submit"  name="suchego" class="btn btn-default btn-lg">Los</button>
 					</div>
 				</form>
 

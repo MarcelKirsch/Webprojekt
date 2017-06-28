@@ -136,12 +136,12 @@ body {
 }
 
 .button-anzeige {
-	position: relative;
+/* 	position: relative;
 	padding: -6px;
 	float: right;
 	padding: auto;
 	margin-top: 20px;
-	margin-right: 15px;
+	margin-right: 15px; */
 }
 
 .profilbild {

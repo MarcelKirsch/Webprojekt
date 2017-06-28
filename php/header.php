@@ -13,11 +13,14 @@
 					src="../img/logo_trans.png" class="logo">
 				</a>
 				
-				<form class="navbar-form navbar-left"  method="post"  enctype="multipart/form-data">
+				
+<!-- 				enctype="multipart/form-data" -->
+				
+				<form class="navbar-form navbar-left"  method="post" action="../webcontent/sucheseite.php" >
 					<div class="form-group input-group-lg searchbar">
 						<input type="text" name="search" class="form-control"
 							placeholder="Suchen" style="min-width: 400px">
-						<button type="submit"  name="suchego" class="btn btn-default btn-lg">Los</button>
+						<input type="submit"  name="suchego" class="btn btn-default btn-lg" value="Los">
 					</div>
 				</form>
 

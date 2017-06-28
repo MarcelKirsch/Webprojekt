@@ -4,7 +4,7 @@ $conn->set_charset ( 'utf8' );
 
 
 //select * from produkte where Produktname LIKE 'G%'
-if(isset($_POST8['suchego']))
+if(isset($_POST['suchego']))
 {
 	$search = $_POST ["search"];
 	
@@ -20,6 +20,8 @@ if(isset($_POST8['suchego']))
 			$name = strtolower($zeile['Produktname']);
 			$search = strtolower($search);
 		
+			
+			if(strpos($name,$search)!==false){
 			echo '
 				<div class="row suchergebnis">
 					<div class="col-md-2 col-center">
@@ -39,7 +41,7 @@ if(isset($_POST8['suchego']))
 					</div>
 				</div>		
 			 ';
-			 
+			}
 		
 
 	}

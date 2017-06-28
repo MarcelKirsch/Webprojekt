@@ -41,7 +41,7 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 			<hr>
 							
 			<div class="row" id="verkauferartikel-benutzer">
-			<h2>Artikel des Verkäufers</h2>
+			<h2>Ein Artikel von dir</h2>
 							
 							
 				<!-- Bilder Carousel -->

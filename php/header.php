@@ -97,7 +97,7 @@
 												<span class="glyphicon glyphicon-list-alt" style="font-size: 4.2rem;" aria-hidden="true"></span>
 												</div>
 												<div class="col-md-9 pull-left">
-												</h2><a href="#"><h5>Meine Artikel</h5></a>
+												</h2><a href="..\webcontent\benutzerartikel.php"><h5>Meine Artikel</h5></a>
 												</div>
 												</div>
 												</div> <hr>

@@ -38,7 +38,6 @@ if(isset($_POST["login-submit"])){
 			$_SESSION['avatar']= NULL;
 			$_SESSION['benutzerid']=0;
 			
-			
 			echo '
 				<script type="text/javascript">
 					$("#modal_meldung_04").modal("show");
@@ -60,7 +59,7 @@ if(isset($_POST["login-submit"])){
 				$_SESSION['afternamelol']= $zeile['Nachname'];
 				$_SESSION['avatar']=base64_encode($zeile['Avatar']);
 				$_SESSION['benutzerid']=$zeile['BenutzerID'];
-	
+				$_SESSION['klasse'] = $zeile['Klasse'];
 			}
 			
 			if ($_SESSION['avatar'] = NULL){

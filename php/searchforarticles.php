@@ -30,7 +30,7 @@ if(isset($_POST['suchego']))
 					
 					
 					<div class="col-md-7" style="text-align: center;">
-						<div><b>'.$zeile['Produktname'].'</b></div>
+						<div><a href=#><b>'.$zeile['Produktname'].'</b></a></div>
 						<div>'.$zeile['Beschreibung'].'</div>
 					</div>
 					  

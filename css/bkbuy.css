@@ -202,6 +202,12 @@ body {
 }
 
 /* SUCHE-SEITE */
+.artikelsuchebild {
+	max-width: 130px;
+	max-height: 170px;
+}
+
+
 #suche-artikelbild {
 	width: 80%; 
 	text-align: center; 

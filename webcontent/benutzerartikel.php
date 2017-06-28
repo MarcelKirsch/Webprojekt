@@ -35,8 +35,7 @@
 				
 				
 				<!-- Artikelansichten -->
-				
-					<?php include("../php/getuserproducts.php")?>		
+				<?php include("../php/getuserproducts.php")?>		
 				
 				
 			</div>

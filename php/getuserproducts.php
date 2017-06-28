@@ -19,8 +19,8 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 		
 		echo '
 				<div class="row suchergebnis">
-				<div class="col-md-2 col-center">
-						<img src="data:image/jpeg;base64,'.base64_encode($zeile['Thumbnail']).'">
+					<div class="col-md-2 col-center">
+						<img class="artikelsuchebild" src="data:image/jpeg;base64,'.base64_encode($zeile['Thumbnail']).'">
 					</div>
 					
 					

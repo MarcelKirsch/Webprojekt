@@ -29,11 +29,12 @@
 					</div>
 				</form>
 				
-				<div class="navbar-nav navbar-right border" style="margin: 20px 20px 0 0;">
-				<a href="../artikel-verkaufen.php">
-					<button type="button" class="btn btn-default" disabled>Artikel
-					einstellen</button>
-				</a>
+				<div class="navbar-nav border" style="margin: 22px 0 0 350px;">
+					<a href="../artikel-verkaufen.php">
+						<button type="button" class="btn btn-default" disabled>Artikel
+						einstellen</button>
+					</a>
+				</div>
 
 				<ul class="nav navbar-nav navbar-right" id="profilbutton-class">
 					<li class="dropdown"><a href="#"
@@ -66,7 +67,6 @@
 						</ul>
 					</li>
 				</ul>
-				</div>
 			</div>
 		</div>
 	</div>

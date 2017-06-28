@@ -23,18 +23,22 @@
 
 				<?php if(!isset($_SESSION['loggedin'])){
 					echo '
-							<a href="../artikel-verkaufen.php">
-								<button type="button" class="btn btn-default button-anzeige" disabled>Artikel
-								einstellen</button>
-				</a>
+							<div class="navbar-nav" style="margin: 22px 0 0 350px;">
+								<a href="../artikel-verkaufen.php">
+									<button type="button" disabled class="btn btn-default" disabled>Artikel
+									einstellen</button>
+								</a>
+							</div>
 						 ';
 				}
 				else{
 					echo '
-							<a href="../webcontent/artikel-verkaufen.php">
-								<button type="button" class="btn btn-default button-anzeige">Artikel
-								einstellen</button>
-							</a>
+							<div class="navbar-nav" style="margin: 22px 0 0 350px;">
+								<a href="../artikel-verkaufen.php">
+									<button type="button" class="btn btn-default" disabled>Artikel
+									einstellen</button>
+								</a>
+							</div>
 						 ';
 				}?>
 

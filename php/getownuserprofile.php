@@ -1,43 +1,43 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-	<?php include '..\php\meta-attributes.php';?>
-	<!-- <meta http-equiv="refresh" content="5" /> -->
-	<title>BKBuy - Benutzerseite</title>
-	<?php include '..\php\CSS_Skripte.php';?>
-</head>
-  
-<body>
-	
-	<?php include '..\php\header.php';?>
-	<?php include '..\php\modals_meldungen.php';?>
-	
-	<div class="container">
-		<div class="container-body">
+<?php 
+include ("connectdb.php");
 
+$conn->set_charset ( 'utf8' );
+
+$sql = "SELECT * FROM produkte";
+
+$db_erg = mysqli_query ( $conn, $sql ) or die ( mysqli_error ( $conn ) );
+if (! $db_erg) {
+	die ( 'Ungültige Abfrage...' );
+}
+
+$i = 0;
+while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
+	
+	if($i<1){
+		echo'
 			<!-- Profilbild und Username, Klasse -->
 			<div class="row" id="benutzerseite">
-
+				
 				<!-- Profilbild -->
 				<div class="col-md-2">
 					<img src="../img/Flash.jpg" alt="Logo" id="profilbild-benutzer">
-
+				
 				</div>
-
+				
 				<!-- Username, Schulklasse -->
 				<div class="col-md-10" style="text-align: center">
-					<div>Username</div>
-					<div>Vorname,Nachname</div>
-					<div>Klasse</div>
+					<div>'.$_SESSION['user'].'</div>
+					<div>'.$_SESSION['prename'].','.$_SESSION['afternamelol'].'</div>
+					<div>'.$_SESSION['klasse'].'</div>
 				</div>
 			</div>
-
+							
 			<hr>
-
+							
 			<div class="row" id="verkauferartikel-benutzer">
 			<h2>Artikel des Verkäufers</h2>
-				
-				
+							
+							
 				<!-- Bilder Carousel -->
 				<div class="col-md-8 carousel-artikel">
 					<div id="carousel-02" class="carousel slide"
@@ -68,21 +68,32 @@
 							</a>
 					</div>
 				</div>
-				
-				
+							
+							
 				<!-- Text zu den Bildern -->
 				<div class="col-md-5">
-					<div class="artikel-beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
-					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
-					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</div>
+					<div class="artikel-beschreibung">
+					<b>'.$zeile['Produktname'].'</b>
+					<br>
+					<br>
+					'.$zeile['Beschreibung'].'
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<?php include '..\php\footer.php';?>
-</body>
-  
-</html>
+		';
+		$i++;
+	}
+	else{
+		break;
+	}
+	
+	
+	} 
+	// print($i);
+
+
+
+mysqli_free_result ( $db_erg );
+
+
+?>

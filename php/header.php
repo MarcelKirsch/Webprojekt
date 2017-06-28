@@ -91,7 +91,7 @@
 												</div>
 												<div class="col-md-9">
 												<h5>'.$_SESSION['prename'].', '.$_SESSION['afternamelol'].'</h5>
-												<a href="#"><h5>Mein Profil</h5></a>
+												<a href="../webcontent/eigenerbenutzer.php"><h5>Mein Profil</h5></a>
 												</div>
 												</div>
 												<hr>

@@ -62,10 +62,6 @@ if(isset($_POST["login-submit"])){
 				$_SESSION['klasse'] = $zeile['Klasse'];
 			}
 			
-			if ($_SESSION['avatar'] = NULL){
-				$_SESSION['avatar']= url("../img/Profilbild2.jpg");
-			}
-			
 			
 			mysqli_free_result ( $db_erg );
 			

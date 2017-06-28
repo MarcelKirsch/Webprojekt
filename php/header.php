@@ -13,11 +13,8 @@
 					src="../img/logo_trans.png" class="logo">
 				</a>
 				
-				
-<!-- 				enctype="multipart/form-data" -->
-				
 				<form class="navbar-form navbar-left"  method="post" action="../webcontent/sucheseite.php" >
-					<div class="form-group input-group-lg searchbar">
+					<div class="form-group input-group-lg searchbar" style="min-width: 200px;">
 						<input type="text" name="search" class="form-control"
 							placeholder="Suchen" style="min-width: 400px">
 						<input type="submit"  name="suchego" class="btn btn-default btn-lg" value="Los">
@@ -26,17 +23,19 @@
 
 				<?php if(!isset($_SESSION['loggedin'])){
 					echo '
-								<a href="../artikel-verkaufen.php">
-									<button type="button" disabled class="btn btn-default" disabled style="margin: 23px 0 0 500px;"
+								<a href="../webcontent/artikel-verkaufen.php" 
+									style="left: 500px; position: relative; z-index: 10; top: 23px;">
+									<button type="button" disabled class="btn btn-default" disabled
 									>Artikel einstellen</button>
 								</a>
 						 ';
 				}
 				else{
 					echo '
-								<a href="../artikel-verkaufen.php">
-									<button type="button" class="btn btn-default" style="margin: 23px 0 0 500px;"
-									>Artikel einstellen</button>
+								<a href="../webcontent/artikel-verkaufen.php" 
+									style="left: 500px; position: relative; z-index: 10; top: 23px;">
+									<input type="button" class="btn btn-default" value="Artikel einstellen"
+									>
 								</a>
 						 ';
 				}?>

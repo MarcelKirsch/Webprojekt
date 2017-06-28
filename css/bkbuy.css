@@ -108,7 +108,8 @@ body {
     border-radius: 50%;
     border: solid 0.5px grey;
     
-    background-image: url("../img/Profilbild2.jpg");
+    /*background-image: url("../img/Profilbild2.jpg");*/
+    background-image: url("../img/Flash.jpg");
     background-position: center;
     background-size: cover;
     

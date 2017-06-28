@@ -116,3 +116,37 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="modal_meldung_08" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="meinModalLabel">Meldung von der Webseite</h4>
+      </div>
+      <div class="modal-body">
+        Ihr Produkt wurde erfolgreich erstellt!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal_meldung_09" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="meinModalLabel">Meldung von der Webseite</h4>
+      </div>
+      <div class="modal-body">
+        Ihr Benutzer wurde erfolgreich erstellt!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -22,6 +22,10 @@ if(empty($productname) OR empty($productdescription) OR empty($productprice))
 			';
 }
 else{
+	echo '
+		<script type="text/javascript">
+		$("#modal_meldung_08").modal("show");
+		</script>';
 
 	$stmt = $conn->prepare("INSERT INTO produkte (BenutzerID,Produktname, Preis,Beschreibung, KatID,Thumbnail) VALUES (?,?,?,?,?,?)");
 	$stmt->bind_param('sssssb',$_SESSION['benutzerid'], $productname, $productprice, $productdescription, $kategorie,$image);

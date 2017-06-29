@@ -55,13 +55,13 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 							<li data-target="#carousel-02" data-slide-to="2"></li>
 						</ol>
 						<div class="carousel-inner">
-							<div class="item active">
+							<div class="item active" style="max-height: 320px; max-width: 570px;">
 								<img class="slide-image" src="../piimg/raspi2/Produktbild1.jpg" alt="">
 							</div>
-							<div class="item">
+							<div class="item" style="max-height: 320px; max-width: 570px;">
 								<img class="slide-image" src="../piimg/raspi2/Produktbild2.jpg" alt="">
 							</div>
-							<div class="item">
+							<div class="item" style="max-height: 320px; max-width: 570px;">
 								<img class="slide-image" src="../piimg/raspi2/Produktbild3.jpg" alt="">
 							</div>
 						</div>

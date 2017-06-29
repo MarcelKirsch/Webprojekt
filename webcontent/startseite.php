@@ -43,7 +43,7 @@
 			                    <div class="row">
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
-			                                <div class="photo">
+			                                <div class="photo" style="max-width: 255px; max-height:255px;min-width: 255px; min-height:255px;">
 			                                    <img src="../piimg/startcaroussel/produk4.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">
@@ -62,8 +62,9 @@
 			                        </div>
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
-			                                <div class="photo">
-			                                    <img src="../piimg/startcaroussel/produkt5.jpg" class="img-responsive" alt="a" />
+			                                <div class="photo" style="max-width: 255px; max-height:255px;min-width: 255px; min-height:255px;">
+			                                    <img src="../piimg/startcaroussel/produkt5.jpg" class="img-responsive" alt="a" /
+			                                    style="max-width: 255px; max-height:255px;min-width: 255px; min-height:255px;">
 			                                </div>
 			                                <div class="info">
 			                                    <div class="row">
@@ -81,7 +82,7 @@
 			                        </div>
 			                        <div class="col-sm-4">
 			                            <div class="col-item">
-			                                <div class="photo">
+			                                <div class="photo" style="max-width: 255px; max-height:255px;min-width: 255px; min-height:255px;">
 			                                    <img src="../piimg/startcaroussel/produkt6.jpg" class="img-responsive" alt="a" />
 			                                </div>
 			                                <div class="info">

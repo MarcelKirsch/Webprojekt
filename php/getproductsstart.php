@@ -20,7 +20,8 @@ while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 		echo '<img src="data:image/jpeg;base64,'.base64_encode($zeile['Thumbnail']). '"/>';
 		print (" <div class=\"caption\"> ");
 		print (" <h4 class=\"pull-right\"> $zeile[Preis] €</h4> ") ;
-		print (" <h4><a href=\"#\"> $zeile[Produktname] </a> ") ;
+		//print (" <h4><a href=\"#\"> $zeile[Produktname] </a> ") ;
+		echo '<h4><a href="..\webcontent\artikelseite.php?id='.$zeile['ProduktID'].'"> '.$zeile['Produktname'].' </a>';
 		print (" </h4> ") ;
 		print (" <p> $zeile[Beschreibung] </p> ") ;
 		print (" </div> ") ;

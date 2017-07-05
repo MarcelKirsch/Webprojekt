@@ -4,24 +4,22 @@ $conn->set_charset ( 'utf8' );
 
 
 //select * from produkte where Produktname LIKE 'G%'
-if(isset($_POST['suchego']))
-{
-	$search = $_POST ["search"];
-	
-	$sql = "SELECT * FROM produkte";
+
+	$katid = $_GET['id'];
+	$sql = "SELECT * FROM produkte WHERE KatID = '$katid'";
 	
 	$db_erg = mysqli_query ( $conn, $sql ) or die ( mysqli_error ( $conn ) );
 	if (! $db_erg) {
 		die ( 'Ungültige Abfrage...' );
 	}
-	$i = 1;
+	
 	while ( $zeile = mysqli_fetch_array ( $db_erg ) ) {
 	
 			$name = strtolower($zeile['Produktname']);
 			$search = strtolower($search);
 		
 			
-			if(strpos($name,$search)!==false){
+			
 			echo '
 				<div class="row suchergebnis">
 					<div class="col-md-2 col-center">
@@ -44,17 +42,17 @@ if(isset($_POST['suchego']))
 					</div>
 				</div>		
 			 ';
-			$i++;
-			}
+			
+			
 		
 
-	}
 	
 	
-	mysqli_free_result ( $db_erg );
+	
 	
 	
 }
 
+mysqli_free_result ( $db_erg );
 
 ?>
